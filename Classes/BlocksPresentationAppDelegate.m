@@ -8,6 +8,12 @@
 
 #import "BlocksPresentationAppDelegate.h"
 #import "BlocksPresentationViewController.h"
+//#import "DefiningBlocks.h"
+//#import "Closures.h"
+//#import "NoBeachball.h"
+//#import "InvalidationPattern.h"
+//#import "Services.h"
+//#import "SDK.h"
 
 @implementation BlocksPresentationAppDelegate
 
@@ -25,6 +31,13 @@
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
+	
+//	[[[DefiningBlocks new] autorelease] go];
+//	[[[Closures new] autorelease] go];
+//	[[[NoBeachball new] autorelease] go];
+//	[[[InvalidationPattern new] autorelease] go];
+//	[[[Services new] autorelease] go];
+//	[[[SDK new] autorelease] go];
 
     return YES;
 }

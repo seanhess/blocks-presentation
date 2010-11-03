@@ -1,0 +1,26 @@
+Closures - unit of work
+Closures - store the scope
+
+Defining them - Return, ^Name, Parameters - void(^)()
+Typedef
+Memory issues - copy, not retain. 
+
+No Beachball - run something in the background + call back to main?
+Invalidation Pattern - Postpone tasks for the run loop. 
+Asynchronous Services - replacing a @selector
+
+Code reuse (for loops)
+Factories - iPad vs iPhone cells?
+SDK - enumerators
+SDK - sort
+SDK - animations - shows how it's useful to keep scope around
+Queuing up expensive tasks, then canceling them
+Concurrency - blocks in a queue always execute sequentially?
+Transforming or Filtering arrays (Array.map?)
+
+http://www.macresearch.org/cocoa-scientists-xxxii-10-uses-blocks-cobjective-c
+
+Note - Custom queues run on the background thread. Main queues run on the main thread. 
+
+Don't use them
+- genuine observer pattern. Any time calling a method makes more sense
